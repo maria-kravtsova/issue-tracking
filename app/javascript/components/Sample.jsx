@@ -13,7 +13,6 @@ export default class SampleComponent extends React.Component {
   }
 
   handleSubmit = (event) => {
-    alert('A name was submitted: ' + this.state.value);
     event.preventDefault();
     fetch('/projects/new', {
       method: 'POST', // or 'PUT'
