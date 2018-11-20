@@ -9,9 +9,9 @@
 
 import React from 'react';
 import { render } from 'react-dom';
-import SampleComponent from '../components/Sample';
+import App from '../components/App';
 
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.body.appendChild(document.createElement('div'));
-  render(<SampleComponent/>, container);
+  render(<App/>, container);
 });

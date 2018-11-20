@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class SampleComponent extends React.Component {
+export default class AddProject extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
